@@ -1,5 +1,5 @@
 ## we-storage
-###说明
+### 说明
 * 支持微信storage、web localstorage、纯数据node-storage 3种模式 统一接口 
 * 统一支持数据类型直接存储获取
 * expire-storeage模块 支持添加过期时间处理

@@ -1,0 +1,21 @@
+{
+  "name": "we-storage",
+  "main":  "lib/index.js",
+  "version": "0.0.1",
+    "description": "支持微信storage、web localstorage、纯数据node-storage 3种模式 统一接口统一支持数据类型直接存储获取",
+    "keywords": [
+      "storage",
+      "wx",
+      "weapp",
+      "node-storage",
+      "expire",
+      "expire-storage"
+  ],
+  "scripts": {
+    "start": "fde start",
+    "build": "fde build"
+  },
+  "dependencies": {
+
+  }
+}

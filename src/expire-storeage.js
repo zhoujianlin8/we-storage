@@ -22,7 +22,7 @@ class ExpireStorage{
             options = {storage : options}
         }
         if(!options || !options.storage){
-            return
+            return console.error('options.storage 不能为空')
         }
         this._prefix = options.prefix || '__expire__';
         this._defaultExpire = options.defaultExpire || 24*3600*1000;
